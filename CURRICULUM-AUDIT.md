@@ -10,7 +10,7 @@ Inventeringen bedömer webbplatsens innehåll, inte Bastians kunskaper. Skolans 
 
 Den tidigare versionen hade sex lästexter, läsfrågor, ordkort på svenska och engelska samt en mattegenerator. Det ger viss träning i tre ämnen, men motsvarar inte en heltäckande lågstadiekurs. Antalet glosor säger inte att svenskans eller engelskans centrala innehåll är täckt. Rätt andel webbfrågor är inte ett skolbetyg eller en bedömning av alla kunskaper.
 
-Denna utbyggnad tillför tre introduktionskurser: AI (tre lektioner), 3D-print (tre lektioner) och C++ (fyra lektioner). De har 20 övningsfrågor och egna praktiska uppgifter. Den täpper främst till delar inom programmeringsidéer, tekniska modeller och källkritik. De övriga luckorna nedan är inventerade, inte färdigbyggda kurser.
+Sidan har nu även 34 lektioner i fem skolämnesdelar: skrivande (fyra), engelska samtal (fyra), matematik (åtta), NO (åtta) och SO (tio). De innehåller 68 frågor och egna praktiska uppgifter. Tio nya mattegeneratorer kompletterar lektionerna. Skrivverkstaden sparar plan, utkast och förbättrad version; engelsklektionerna har uppläsning, rollval och egna sparade meddelanden. Därtill finns de tidigare tio introduktionslektionerna om AI, 3D-print och C++, med 20 frågor. Områdena nedan har uppdaterats efter utbyggnaden men markeras fortfarande inte som helt täckta.
 
 AI, 3D-print och programspråket C++ är valda fördjupningar. Stegvisa instruktioner och programmering samt modeller och konstruktioner har kopplingar till matematik och teknik. Kursplanen kräver inte just dessa verktyg eller detta språk.
 
@@ -18,10 +18,10 @@ Status: **Delvis** betyder att delar tränas här. **Introduktion** betyder att 
 
 ## Prioriterad fortsättning
 
-1. Svenska: skrivande med textbearbetning, läsflyt och textsamtal.
-2. Matematik: positionssystem och bråk; därefter geometri, mått, mönster och enkla diagram.
-3. Engelska: använd orden i korta vardagsdialoger, lästexter, lyssning och enkla meddelanden.
-4. NO och SO: egna sammanhängande lektioner och undersökningar, i samråd med vad klassen arbetar med.
+1. Svenska: genomför skrivuppdragen med en läsare som ger återkoppling; komplettera med läsflyt, handstil och texter i fler genrer.
+2. Matematik: använd de nya lektionerna och generatorerna. Komplettera med konkreta bråkmodeller, skriftliga metoder, mätning och egna undersökningar.
+3. Engelska: genomför dialogerna med en annan person och lägg till sånger, ramsor, illustrerade texter och fler röster.
+4. NO och SO: läs de nya lektionerna och genomför undersökningarna. Följ upp observationer, lokala källor och samtal med läraren eller en vuxen.
 5. Praktiska ämnen: planerade aktiviteter med lärare eller vuxen. Webbtexter och quiz ersätter inte utförandet.
 
 ## Svenska
@@ -34,15 +34,15 @@ Kursplanens intervall: 1–3. [Skolverkets original](https://syllabuswebb.skolve
 
 **Återstår:** Fler textgenrer, ljud–bokstav, läsflyt och samtal om budskap.
 
-### Skriva och bearbeta — Saknas
+### Skriva och bearbeta — Delvis
 
-**Finns:** Ingen särskild skrivträning.
+**Finns:** Fyra skrivlektioner med plan, utkast och förbättrad version. Sparade egna texter, skrivstöd, faktatext och instruktion.
 
-**Återstår:** Skriva berättelser med början, händelser och slut; förbättra en text, stavning, skiljetecken och alfabetisk ordning.
+**Återstår:** Handstil, mer stavning och alfabetisk ordning samt återkoppling av lärare eller annan läsare. Sidan bedömer inte texternas kvalitet.
 
 ### Tala och lyssna — Delvis
 
-**Finns:** En uppmaning att återberätta efter läsning.
+**Finns:** Återberättande och nya uppdrag att läsa texter och ge instruktioner till en annan person.
 
 **Återstår:** Återberätta, ge instruktioner och hålla en kort presentation med en annan person.
 
@@ -54,7 +54,7 @@ Kursplanens intervall: 1–3. [Skolverkets original](https://syllabuswebb.skolve
 
 ### Språk och källor — Introduktion
 
-**Finns:** Ordträning samt den nya AI-kursens övning att kontrollera påståenden.
+**Finns:** Ordträning, faktaskrivande med källa, AI-källkritik och en SO-lektion om observation, åsikt och avsändare.
 
 **Återstår:** Söka i böcker och barntjänster, jämföra avsändare, språkets nyanser och skillnader mellan tal och skrift.
 
@@ -66,15 +66,15 @@ Kursplanens intervall: 1–3. [Skolverkets original](https://syllabuswebb.skolve
 
 ### Tal och beräkningar — Delvis
 
-**Finns:** Slumpade uppgifter med fyra räknesätt och enkla textproblem.
+**Finns:** Generator med fyra räknesätt samt nya förklaringar och frågor om positionssystem, bråk och rimlighetsbedömning.
 
-**Återstår:** Positionssystem, ordning och uppdelning av tal, bråk, överslag, skriftliga metoder och samband mellan räknesätten.
+**Återstår:** Mer uppdelning och jämförelse av bråk, skriftliga metoder, talens historiska symboler och mer resonemang om räknesätt.
 
-### Likheter och mönster — Introduktion
+### Likheter och mönster — Delvis
 
-**Finns:** C++-kursen visar tal i namngivna variabler och upprepning.
+**Finns:** Egna lektioner och generatorfrågor om likhet, saknade tal och talmönster. C++ ger ett annat sätt att arbeta med variabler.
 
-**Återstår:** Likhetstecknets betydelse, saknade tal och fortsättning av tal- och bildmönster. C++-tilldelning är inte matematisk likhet.
+**Återstår:** Fler egna bildmönster och jämförelse av olika lösningssätt. Fortsätt skilja på matematisk likhet och C++-tilldelning.
 
 ### Stegvisa instruktioner — Delvis
 
@@ -82,23 +82,23 @@ Kursplanens intervall: 1–3. [Skolverkets original](https://syllabuswebb.skolve
 
 **Återstår:** Låta en kamrat följa egna instruktioner, upptäcka fel och förbättra dem.
 
-### Form, mått och symmetri — Introduktion
+### Form, mått och symmetri — Delvis
 
-**Finns:** Klockans hela och halva timmar. 3D-kursen visar rätblock och millimetermått.
+**Finns:** Nya lektioner om plana former, kroppar, lägesord, symmetri, enheter och enkel förminskning. Nya generatorfrågor om former och mått.
 
-**Återstår:** Plana former, klot, kon, cylinder, lägesord, symmetri, enkel skala samt längd, massa och volym med olika enheter.
+**Återstår:** Fler undersökningar av koner och andra kroppar, äldre måttenheter, vägning, volymmätning och praktiskt arbete med symmetri och skala.
 
-### Slump och diagram — Saknas
+### Slump och diagram — Delvis
 
-**Finns:** Slumpade frågor är inte undervisning om slump.
+**Finns:** Ny lektion med tabell och stapeldiagram samt tärningsuppdrag. Generatorfrågor om tabeller och möjliga utfall.
 
-**Återstår:** Undersöka tärningskast, sortera data och göra enkla tabeller och diagram.
+**Återstår:** Genomföra egna undersökningar, samla data och skapa diagram själv. Praktiska uppdrag behöver följas upp.
 
 ### Samband och problemlösning — Delvis
 
-**Finns:** Enstegsproblem, till exempel att lägga ihop kulor.
+**Finns:** Ny problemlösningslektion om val av strategi och kontroll samt träning i dubbelt, hälften och rimliga svar.
 
-**Återstår:** Dubbelt och hälften, välja strategier, förklara lösningar och bedöma om ett svar är rimligt.
+**Återstår:** Fler flerstegsproblem, egna frågeställningar och muntlig jämförelse av strategier.
 
 **Förslag på nästa steg:** Träna tiotal och ental, halvor och fjärdedelar samt att förklara hur du tänker. Räkna är mer än att välja rätt svar.
 
@@ -108,25 +108,25 @@ Kursplanens intervall: 1–3. [Skolverkets original](https://syllabuswebb.skolve
 
 ### Vardagsord och fraser — Delvis
 
-**Finns:** 1 000 vanliga ord, två översättningsriktningar och uppläsning.
+**Finns:** 1 000 ord samt fyra nya lektioner med dialoger, egna repliker, artiga frågor och vardagsord i sammanhang.
 
 **Återstår:** Använda orden i välbekanta situationer och enkla fraser. 1 000 ord är inget krav i kursplanen.
 
 ### Lyssna och läsa — Delvis
 
-**Finns:** Uppläsning av enskilda ord och betydelser.
+**Finns:** Dialoger och en kort berättande text med engelsk uppläsning per replik och hel text samt förståelsefrågor.
 
-**Återstår:** Sammanhängande enkla texter, dialoger, instruktioner, skyltar, barnberättelser och ramsor.
+**Återstår:** Fler instruktioner, illustrerade berättelser, ramsor, filmer och varierande röster.
 
-### Tala och skriva — Saknas
+### Tala och skriva — Delvis
 
-**Finns:** Inga särskilda samtals- eller skrivuppgifter på engelska.
+**Finns:** Rollval, dialoger för två personer och eget sparat engelskt meddelande i varje lektion.
 
-**Återstår:** Presentera sig, beskriva ett föremål, fråga och svara samt skriva enkla meddelanden.
+**Återstår:** Genomföra samtalen med en annan person och få återkoppling på begriplighet. Ingen mikrofon eller automatisk uttalsbedömning används.
 
-### Levnadssätt och uttryck — Saknas
+### Levnadssätt och uttryck — Introduktion
 
-**Finns:** Ingen sammanhållen del.
+**Finns:** Enkla vardagssituationer och en introduktion till att engelska används på många platser och uttalas olika.
 
 **Återstår:** Vardag i miljöer där engelska används samt sång, lek och dramatisering.
 
@@ -138,29 +138,29 @@ Kursplanens intervall: 1–3. [Skolverkets original](https://syllabuswebb.skolve
 
 NO har gemensamt centralt innehåll i årskurs 1–3. Samma luckor visas under alla tre ämnena.
 
-### Natur och liv — Introduktion
+### Natur och liv — Delvis
 
-**Finns:** Två lästexter berör odling och höstlöv; ingen sammanhållen NO-kurs.
+**Finns:** NO-lektioner om årstider, livscykler, arter och näringskedjor med observationsuppdrag.
 
-**Återstår:** Årstider, arter, växters och djurs liv, livsmiljöer och enkla näringskedjor.
+**Återstår:** Fler artnamn, fältstudier under flera årstider och fördjupning om livsmiljöer och svampar.
 
-### Kropp och välmående — Saknas
+### Kropp och välmående — Delvis
 
-**Finns:** Ingen egen undervisningsdel.
+**Finns:** Ny lektion om hjärta, lungor, hjärna, sinnen och vardagsvanor samt ett ljuduppdrag.
 
-**Återstår:** Organ, sinnen, sömn, mat, rörelse, hygien och relationer.
+**Återstår:** Fler sinnesundersökningar och återkommande samtal om vad kroppen behöver och hur relationer påverkar måendet.
 
-### Rörelse och rymden — Introduktion
+### Rörelse och rymden — Delvis
 
-**Finns:** En berättelse utspelar sig på bibliotekets rymdhylla.
+**Finns:** Egna NO-lektioner om tyngdkraft, friktion, balans, sol, jord och måne med undersökningsuppdrag.
 
-**Återstår:** Undersöka balans, friktion och tyngdkraft samt solsystemets rörelser. En berättelse om en bok täcker inte astronomi.
+**Återstår:** Pröva uppdragen, fler planeter, människan i rymden och fler dokumenterade undersökningar av jämvikt och tyngdpunkt.
 
-### Ämnen och undersökningar — Introduktion
+### Ämnen och undersökningar — Delvis
 
-**Finns:** 3D-kursen visar ett materials användning och att prova en modell.
+**Finns:** Nya NO-lektioner om vattenformer, kretslopp, material, filtrering, återvinning och hur en undersökning planeras och dokumenteras.
 
-**Återstår:** Flyta och sjunka, magnetism, återvinning, vattenformer, blandningar, enkla experiment och dokumentation.
+**Återstår:** Genomföra och följa upp undersökningarna, fler separationstekniker och historiska exempel på hur naturvetenskap utvecklats.
 
 **Förslag på nästa steg:** Gör en naturpromenad och rita tre arter. Utför sedan en enkel flyta–sjunka-undersökning med en vuxen och skriv vad ni observerar.
 
@@ -170,29 +170,29 @@ Kursplanens intervall: 1–3. [Skolverkets original](https://syllabuswebb.skolve
 
 NO har gemensamt centralt innehåll i årskurs 1–3. Samma luckor visas under alla tre ämnena.
 
-### Natur och liv — Introduktion
+### Natur och liv — Delvis
 
-**Finns:** Två lästexter berör odling och höstlöv; ingen sammanhållen NO-kurs.
+**Finns:** NO-lektioner om årstider, livscykler, arter och näringskedjor med observationsuppdrag.
 
-**Återstår:** Årstider, arter, växters och djurs liv, livsmiljöer och enkla näringskedjor.
+**Återstår:** Fler artnamn, fältstudier under flera årstider och fördjupning om livsmiljöer och svampar.
 
-### Kropp och välmående — Saknas
+### Kropp och välmående — Delvis
 
-**Finns:** Ingen egen undervisningsdel.
+**Finns:** Ny lektion om hjärta, lungor, hjärna, sinnen och vardagsvanor samt ett ljuduppdrag.
 
-**Återstår:** Organ, sinnen, sömn, mat, rörelse, hygien och relationer.
+**Återstår:** Fler sinnesundersökningar och återkommande samtal om vad kroppen behöver och hur relationer påverkar måendet.
 
-### Rörelse och rymden — Introduktion
+### Rörelse och rymden — Delvis
 
-**Finns:** En berättelse utspelar sig på bibliotekets rymdhylla.
+**Finns:** Egna NO-lektioner om tyngdkraft, friktion, balans, sol, jord och måne med undersökningsuppdrag.
 
-**Återstår:** Undersöka balans, friktion och tyngdkraft samt solsystemets rörelser. En berättelse om en bok täcker inte astronomi.
+**Återstår:** Pröva uppdragen, fler planeter, människan i rymden och fler dokumenterade undersökningar av jämvikt och tyngdpunkt.
 
-### Ämnen och undersökningar — Introduktion
+### Ämnen och undersökningar — Delvis
 
-**Finns:** 3D-kursen visar ett materials användning och att prova en modell.
+**Finns:** Nya NO-lektioner om vattenformer, kretslopp, material, filtrering, återvinning och hur en undersökning planeras och dokumenteras.
 
-**Återstår:** Flyta och sjunka, magnetism, återvinning, vattenformer, blandningar, enkla experiment och dokumentation.
+**Återstår:** Genomföra och följa upp undersökningarna, fler separationstekniker och historiska exempel på hur naturvetenskap utvecklats.
 
 **Förslag på nästa steg:** Gör en naturpromenad och rita tre arter. Utför sedan en enkel flyta–sjunka-undersökning med en vuxen och skriv vad ni observerar.
 
@@ -202,29 +202,29 @@ Kursplanens intervall: 1–3. [Skolverkets original](https://syllabuswebb.skolve
 
 NO har gemensamt centralt innehåll i årskurs 1–3. Samma luckor visas under alla tre ämnena.
 
-### Natur och liv — Introduktion
+### Natur och liv — Delvis
 
-**Finns:** Två lästexter berör odling och höstlöv; ingen sammanhållen NO-kurs.
+**Finns:** NO-lektioner om årstider, livscykler, arter och näringskedjor med observationsuppdrag.
 
-**Återstår:** Årstider, arter, växters och djurs liv, livsmiljöer och enkla näringskedjor.
+**Återstår:** Fler artnamn, fältstudier under flera årstider och fördjupning om livsmiljöer och svampar.
 
-### Kropp och välmående — Saknas
+### Kropp och välmående — Delvis
 
-**Finns:** Ingen egen undervisningsdel.
+**Finns:** Ny lektion om hjärta, lungor, hjärna, sinnen och vardagsvanor samt ett ljuduppdrag.
 
-**Återstår:** Organ, sinnen, sömn, mat, rörelse, hygien och relationer.
+**Återstår:** Fler sinnesundersökningar och återkommande samtal om vad kroppen behöver och hur relationer påverkar måendet.
 
-### Rörelse och rymden — Introduktion
+### Rörelse och rymden — Delvis
 
-**Finns:** En berättelse utspelar sig på bibliotekets rymdhylla.
+**Finns:** Egna NO-lektioner om tyngdkraft, friktion, balans, sol, jord och måne med undersökningsuppdrag.
 
-**Återstår:** Undersöka balans, friktion och tyngdkraft samt solsystemets rörelser. En berättelse om en bok täcker inte astronomi.
+**Återstår:** Pröva uppdragen, fler planeter, människan i rymden och fler dokumenterade undersökningar av jämvikt och tyngdpunkt.
 
-### Ämnen och undersökningar — Introduktion
+### Ämnen och undersökningar — Delvis
 
-**Finns:** 3D-kursen visar ett materials användning och att prova en modell.
+**Finns:** Nya NO-lektioner om vattenformer, kretslopp, material, filtrering, återvinning och hur en undersökning planeras och dokumenteras.
 
-**Återstår:** Flyta och sjunka, magnetism, återvinning, vattenformer, blandningar, enkla experiment och dokumentation.
+**Återstår:** Genomföra och följa upp undersökningarna, fler separationstekniker och historiska exempel på hur naturvetenskap utvecklats.
 
 **Förslag på nästa steg:** Gör en naturpromenad och rita tre arter. Utför sedan en enkel flyta–sjunka-undersökning med en vuxen och skriv vad ni observerar.
 
@@ -234,29 +234,29 @@ Kursplanens intervall: 1–3. [Skolverkets original](https://syllabuswebb.skolve
 
 SO har gemensamt centralt innehåll i årskurs 1–3. Raderna visar det gemensamma området, inte fyra olika fullständiga kurser.
 
-### Människor tillsammans — Saknas
+### Människor tillsammans — Delvis
 
-**Finns:** Berättelserna har vardagliga händelser men inga systematiska SO-lektioner.
+**Finns:** Nya SO-lektioner om regler, vänskap, rättigheter, demokrati, migration och trafik samt uppdrag för samtal.
 
-**Återstår:** Vänskap, livsfrågor, regler, migration, säkert trafikbeteende och vardag förr.
+**Återstår:** Fler elevnära livsfrågor, könsroller, praktisk trafikträning och återkommande samtal med andra.
 
-### Hemorten och historien — Saknas
+### Hemorten och historien — Delvis
 
-**Finns:** Ingen egen SO-del.
+**Finns:** SO-lektioner om samhällsfunktioner, yrken, intervjuer, spår från förr och kyrkans tidigare roll i skolan.
 
-**Återstår:** Lokala samhällstjänster och yrken, platsers historia, istidsspår och kristendomens tidigare roll.
+**Återstår:** Undersöka den faktiska hemorten, fler istidsspår och lokala byggnader samt använda lokala källor. Inga lokala fakta har antagits.
 
-### Värld, tro och rättigheter — Saknas
+### Värld, tro och rättigheter — Delvis
 
-**Finns:** Ingen egen SO-del.
+**Finns:** Lektioner om kartor, världsdelar och hav, forntid, kristendom, judendom, islam, myter, barnrätt, demokrati, pengar och miljöval.
 
-**Återstår:** Världsdelar och hav, tidiga människor och livet i forntidens Norden, myter, kristendom, islam och judendom, barnets rättigheter, demokrati, pengar och miljöfrågor.
+**Återstår:** Fler konkreta mytberättelser, samisk religion, människans uppkomst och vandringar, naturens betydelse för bosättning och återkommande arbete med aktuella samhällsfrågor.
 
-### Undersöka och orientera sig — Introduktion
+### Undersöka och orientera sig — Delvis
 
-**Finns:** AI-kursen tränar att kontrollera ett påstående.
+**Finns:** Egna SO-lektioner om källor, observation och åsikt, kartor, väderstreck och tidslinjer samt intervjuuppdrag.
 
-**Återstår:** Intervjuer, observationer och jämförelse av källor, jordglob, kartor, väderstreck och tidslinjer.
+**Återstår:** Utföra uppdragen med riktiga källor, jordglob, kartor och platsbesök. Kontrollera om olika källor besvarar samma fråga.
 
 **Förslag på nästa steg:** Rita en karta över en välbekant plats, gör en tidslinje över en dag och prata om en regel: varför finns den och kan den bli bättre?
 
@@ -266,29 +266,29 @@ Kursplanens intervall: 1–3. [Skolverkets original](https://syllabuswebb.skolve
 
 SO har gemensamt centralt innehåll i årskurs 1–3. Raderna visar det gemensamma området, inte fyra olika fullständiga kurser.
 
-### Människor tillsammans — Saknas
+### Människor tillsammans — Delvis
 
-**Finns:** Berättelserna har vardagliga händelser men inga systematiska SO-lektioner.
+**Finns:** Nya SO-lektioner om regler, vänskap, rättigheter, demokrati, migration och trafik samt uppdrag för samtal.
 
-**Återstår:** Vänskap, livsfrågor, regler, migration, säkert trafikbeteende och vardag förr.
+**Återstår:** Fler elevnära livsfrågor, könsroller, praktisk trafikträning och återkommande samtal med andra.
 
-### Hemorten och historien — Saknas
+### Hemorten och historien — Delvis
 
-**Finns:** Ingen egen SO-del.
+**Finns:** SO-lektioner om samhällsfunktioner, yrken, intervjuer, spår från förr och kyrkans tidigare roll i skolan.
 
-**Återstår:** Lokala samhällstjänster och yrken, platsers historia, istidsspår och kristendomens tidigare roll.
+**Återstår:** Undersöka den faktiska hemorten, fler istidsspår och lokala byggnader samt använda lokala källor. Inga lokala fakta har antagits.
 
-### Värld, tro och rättigheter — Saknas
+### Värld, tro och rättigheter — Delvis
 
-**Finns:** Ingen egen SO-del.
+**Finns:** Lektioner om kartor, världsdelar och hav, forntid, kristendom, judendom, islam, myter, barnrätt, demokrati, pengar och miljöval.
 
-**Återstår:** Världsdelar och hav, tidiga människor och livet i forntidens Norden, myter, kristendom, islam och judendom, barnets rättigheter, demokrati, pengar och miljöfrågor.
+**Återstår:** Fler konkreta mytberättelser, samisk religion, människans uppkomst och vandringar, naturens betydelse för bosättning och återkommande arbete med aktuella samhällsfrågor.
 
-### Undersöka och orientera sig — Introduktion
+### Undersöka och orientera sig — Delvis
 
-**Finns:** AI-kursen tränar att kontrollera ett påstående.
+**Finns:** Egna SO-lektioner om källor, observation och åsikt, kartor, väderstreck och tidslinjer samt intervjuuppdrag.
 
-**Återstår:** Intervjuer, observationer och jämförelse av källor, jordglob, kartor, väderstreck och tidslinjer.
+**Återstår:** Utföra uppdragen med riktiga källor, jordglob, kartor och platsbesök. Kontrollera om olika källor besvarar samma fråga.
 
 **Förslag på nästa steg:** Rita en karta över en välbekant plats, gör en tidslinje över en dag och prata om en regel: varför finns den och kan den bli bättre?
 
@@ -298,29 +298,29 @@ Kursplanens intervall: 1–3. [Skolverkets original](https://syllabuswebb.skolve
 
 SO har gemensamt centralt innehåll i årskurs 1–3. Raderna visar det gemensamma området, inte fyra olika fullständiga kurser.
 
-### Människor tillsammans — Saknas
+### Människor tillsammans — Delvis
 
-**Finns:** Berättelserna har vardagliga händelser men inga systematiska SO-lektioner.
+**Finns:** Nya SO-lektioner om regler, vänskap, rättigheter, demokrati, migration och trafik samt uppdrag för samtal.
 
-**Återstår:** Vänskap, livsfrågor, regler, migration, säkert trafikbeteende och vardag förr.
+**Återstår:** Fler elevnära livsfrågor, könsroller, praktisk trafikträning och återkommande samtal med andra.
 
-### Hemorten och historien — Saknas
+### Hemorten och historien — Delvis
 
-**Finns:** Ingen egen SO-del.
+**Finns:** SO-lektioner om samhällsfunktioner, yrken, intervjuer, spår från förr och kyrkans tidigare roll i skolan.
 
-**Återstår:** Lokala samhällstjänster och yrken, platsers historia, istidsspår och kristendomens tidigare roll.
+**Återstår:** Undersöka den faktiska hemorten, fler istidsspår och lokala byggnader samt använda lokala källor. Inga lokala fakta har antagits.
 
-### Värld, tro och rättigheter — Saknas
+### Värld, tro och rättigheter — Delvis
 
-**Finns:** Ingen egen SO-del.
+**Finns:** Lektioner om kartor, världsdelar och hav, forntid, kristendom, judendom, islam, myter, barnrätt, demokrati, pengar och miljöval.
 
-**Återstår:** Världsdelar och hav, tidiga människor och livet i forntidens Norden, myter, kristendom, islam och judendom, barnets rättigheter, demokrati, pengar och miljöfrågor.
+**Återstår:** Fler konkreta mytberättelser, samisk religion, människans uppkomst och vandringar, naturens betydelse för bosättning och återkommande arbete med aktuella samhällsfrågor.
 
-### Undersöka och orientera sig — Introduktion
+### Undersöka och orientera sig — Delvis
 
-**Finns:** AI-kursen tränar att kontrollera ett påstående.
+**Finns:** Egna SO-lektioner om källor, observation och åsikt, kartor, väderstreck och tidslinjer samt intervjuuppdrag.
 
-**Återstår:** Intervjuer, observationer och jämförelse av källor, jordglob, kartor, väderstreck och tidslinjer.
+**Återstår:** Utföra uppdragen med riktiga källor, jordglob, kartor och platsbesök. Kontrollera om olika källor besvarar samma fråga.
 
 **Förslag på nästa steg:** Rita en karta över en välbekant plats, gör en tidslinje över en dag och prata om en regel: varför finns den och kan den bli bättre?
 
@@ -330,29 +330,29 @@ Kursplanens intervall: 1–3. [Skolverkets original](https://syllabuswebb.skolve
 
 SO har gemensamt centralt innehåll i årskurs 1–3. Raderna visar det gemensamma området, inte fyra olika fullständiga kurser.
 
-### Människor tillsammans — Saknas
+### Människor tillsammans — Delvis
 
-**Finns:** Berättelserna har vardagliga händelser men inga systematiska SO-lektioner.
+**Finns:** Nya SO-lektioner om regler, vänskap, rättigheter, demokrati, migration och trafik samt uppdrag för samtal.
 
-**Återstår:** Vänskap, livsfrågor, regler, migration, säkert trafikbeteende och vardag förr.
+**Återstår:** Fler elevnära livsfrågor, könsroller, praktisk trafikträning och återkommande samtal med andra.
 
-### Hemorten och historien — Saknas
+### Hemorten och historien — Delvis
 
-**Finns:** Ingen egen SO-del.
+**Finns:** SO-lektioner om samhällsfunktioner, yrken, intervjuer, spår från förr och kyrkans tidigare roll i skolan.
 
-**Återstår:** Lokala samhällstjänster och yrken, platsers historia, istidsspår och kristendomens tidigare roll.
+**Återstår:** Undersöka den faktiska hemorten, fler istidsspår och lokala byggnader samt använda lokala källor. Inga lokala fakta har antagits.
 
-### Värld, tro och rättigheter — Saknas
+### Värld, tro och rättigheter — Delvis
 
-**Finns:** Ingen egen SO-del.
+**Finns:** Lektioner om kartor, världsdelar och hav, forntid, kristendom, judendom, islam, myter, barnrätt, demokrati, pengar och miljöval.
 
-**Återstår:** Världsdelar och hav, tidiga människor och livet i forntidens Norden, myter, kristendom, islam och judendom, barnets rättigheter, demokrati, pengar och miljöfrågor.
+**Återstår:** Fler konkreta mytberättelser, samisk religion, människans uppkomst och vandringar, naturens betydelse för bosättning och återkommande arbete med aktuella samhällsfrågor.
 
-### Undersöka och orientera sig — Introduktion
+### Undersöka och orientera sig — Delvis
 
-**Finns:** AI-kursen tränar att kontrollera ett påstående.
+**Finns:** Egna SO-lektioner om källor, observation och åsikt, kartor, väderstreck och tidslinjer samt intervjuuppdrag.
 
-**Återstår:** Intervjuer, observationer och jämförelse av källor, jordglob, kartor, väderstreck och tidslinjer.
+**Återstår:** Utföra uppdragen med riktiga källor, jordglob, kartor och platsbesök. Kontrollera om olika källor besvarar samma fråga.
 
 **Förslag på nästa steg:** Rita en karta över en välbekant plats, gör en tidslinje över en dag och prata om en regel: varför finns den och kan den bli bättre?
 

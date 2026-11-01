@@ -15,3 +15,9 @@ Ordmaterialet har 50 omgångar med 20 ord per språk och en sökbar lista. Se WO
 Under Läroplan finns en inventering av 16 ämnen mot Lgr22, med status per område, luckor och källor. Samma inventering finns i CURRICULUM-AUDIT.md. Den bedömer webbplatsens innehåll, inte elevens kunskaper.
 
 Upptäckarverkstan innehåller tio lektioner om AI, 3D-print och C++, med 20 frågor, uppläsning och praktiska uppgifter. Demonstrationerna visar en liten modell med närmaste granne, genererar ett enkelt rätblock i STL-format och förhandsvisar färdiga C++-exempel. Ingen extern AI-tjänst anropas och C++ kompileras inte i webbläsaren. STL-filen måste öppnas av en vuxen i en slicer, med millimeter som enhet. Faktisk utskrift ska skötas av en vuxen.
+
+## Skolämnen
+
+34 lektioner i skrivande, engelska dialoger, matematik, NO och SO med 68 frågor. Skrivande och engelska meddelanden sparas i `drafts` i samma lokala framstegsfil och ingår i export/import. Textstöd räknar ord och visar enkla signaler om stor bokstav och avslutande skiljetecken; det bedömer inte kvalitet eller stavning. Ingen mikrofon spelas in och engelskt uttal bedöms inte automatiskt.
+
+Matten har tio nya områden: positionssystem, bråk, likheter, mönster, geometri, mått, dubbelt och hälften, diagram, slump och rimlighet. De väljs under Matte och finns också bland de blandade uppgifterna. Förklaringar och praktiska uppdrag finns under Skolämnen. Läroplansinventeringen har uppdaterats med kvarvarande behov av praktiskt utförande och återkoppling.

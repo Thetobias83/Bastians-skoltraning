@@ -2,36 +2,36 @@ const syllabus=code=>`https://syllabuswebb.skolverket.se/compulsorycw/jsp/subjec
 const audit=[
 {subject:'Svenska',code:'SVE',stage:'1–3',areas:[
  ['Läsa och förstå','Delvis','Sex korta texter, 18 läsfrågor, uppläsning och 1 000 ord.','Fler textgenrer, ljud–bokstav, läsflyt och samtal om budskap.'],
- ['Skriva och bearbeta','Saknas','Ingen särskild skrivträning.','Skriva berättelser med början, händelser och slut; förbättra en text, stavning, skiljetecken och alfabetisk ordning.'],
- ['Tala och lyssna','Delvis','En uppmaning att återberätta efter läsning.','Återberätta, ge instruktioner och hålla en kort presentation med en annan person.'],
+ ['Skriva och bearbeta','Delvis','Fyra skrivlektioner med plan, utkast och förbättrad version. Sparade egna texter, skrivstöd, faktatext och instruktion.','Handstil, mer stavning och alfabetisk ordning samt återkoppling av lärare eller annan läsare. Sidan bedömer inte texternas kvalitet.'],
+ ['Tala och lyssna','Delvis','Återberättande och nya uppdrag att läsa texter och ge instruktioner till en annan person.','Återberätta, ge instruktioner och hålla en kort presentation med en annan person.'],
  ['Litteratur och olika uttryck','Delvis','Egna korta berättelser och en faktatext.','Dikter, sagor, dramatik, barnboksförfattare och illustratörer samt samspel mellan bild och text.'],
- ['Språk och källor','Introduktion','Ordträning samt den nya AI-kursens övning att kontrollera påståenden.','Söka i böcker och barntjänster, jämföra avsändare, språkets nyanser och skillnader mellan tal och skrift.']
+ ['Språk och källor','Introduktion','Ordträning, faktaskrivande med källa, AI-källkritik och en SO-lektion om observation, åsikt och avsändare.','Söka i böcker och barntjänster, jämföra avsändare, språkets nyanser och skillnader mellan tal och skrift.']
 ],next:'Börja med en egen femmeningsberättelse. Läs högt, låt en vuxen fråga om innehållet och förbättra sedan en mening.'},
 {subject:'Matematik',code:'MAT',stage:'1–3',areas:[
- ['Tal och beräkningar','Delvis','Slumpade uppgifter med fyra räknesätt och enkla textproblem.','Positionssystem, ordning och uppdelning av tal, bråk, överslag, skriftliga metoder och samband mellan räknesätten.'],
- ['Likheter och mönster','Introduktion','C++-kursen visar tal i namngivna variabler och upprepning.','Likhetstecknets betydelse, saknade tal och fortsättning av tal- och bildmönster. C++-tilldelning är inte matematisk likhet.'],
+ ['Tal och beräkningar','Delvis','Generator med fyra räknesätt samt nya förklaringar och frågor om positionssystem, bråk och rimlighetsbedömning.','Mer uppdelning och jämförelse av bråk, skriftliga metoder, talens historiska symboler och mer resonemang om räknesätt.'],
+ ['Likheter och mönster','Delvis','Egna lektioner och generatorfrågor om likhet, saknade tal och talmönster. C++ ger ett annat sätt att arbeta med variabler.','Fler egna bildmönster och jämförelse av olika lösningssätt. Fortsätt skilja på matematisk likhet och C++-tilldelning.'],
  ['Stegvisa instruktioner','Delvis','Nya C++-lektioner med ordning, villkor och upprepning samt en förutsägelseövning.','Låta en kamrat följa egna instruktioner, upptäcka fel och förbättra dem.'],
- ['Form, mått och symmetri','Introduktion','Klockans hela och halva timmar. 3D-kursen visar rätblock och millimetermått.','Plana former, klot, kon, cylinder, lägesord, symmetri, enkel skala samt längd, massa och volym med olika enheter.'],
- ['Slump och diagram','Saknas','Slumpade frågor är inte undervisning om slump.','Undersöka tärningskast, sortera data och göra enkla tabeller och diagram.'],
- ['Samband och problemlösning','Delvis','Enstegsproblem, till exempel att lägga ihop kulor.','Dubbelt och hälften, välja strategier, förklara lösningar och bedöma om ett svar är rimligt.']
+ ['Form, mått och symmetri','Delvis','Nya lektioner om plana former, kroppar, lägesord, symmetri, enheter och enkel förminskning. Nya generatorfrågor om former och mått.','Fler undersökningar av koner och andra kroppar, äldre måttenheter, vägning, volymmätning och praktiskt arbete med symmetri och skala.'],
+ ['Slump och diagram','Delvis','Ny lektion med tabell och stapeldiagram samt tärningsuppdrag. Generatorfrågor om tabeller och möjliga utfall.','Genomföra egna undersökningar, samla data och skapa diagram själv. Praktiska uppdrag behöver följas upp.'],
+ ['Samband och problemlösning','Delvis','Ny problemlösningslektion om val av strategi och kontroll samt träning i dubbelt, hälften och rimliga svar.','Fler flerstegsproblem, egna frågeställningar och muntlig jämförelse av strategier.']
 ],next:'Träna tiotal och ental, halvor och fjärdedelar samt att förklara hur du tänker. Räkna är mer än att välja rätt svar.'},
 {subject:'Engelska',code:'ENG',stage:'1–3',areas:[
- ['Vardagsord och fraser','Delvis','1 000 vanliga ord, två översättningsriktningar och uppläsning.','Använda orden i välbekanta situationer och enkla fraser. 1 000 ord är inget krav i kursplanen.'],
- ['Lyssna och läsa','Delvis','Uppläsning av enskilda ord och betydelser.','Sammanhängande enkla texter, dialoger, instruktioner, skyltar, barnberättelser och ramsor.'],
- ['Tala och skriva','Saknas','Inga särskilda samtals- eller skrivuppgifter på engelska.','Presentera sig, beskriva ett föremål, fråga och svara samt skriva enkla meddelanden.'],
- ['Levnadssätt och uttryck','Saknas','Ingen sammanhållen del.','Vardag i miljöer där engelska används samt sång, lek och dramatisering.']
+ ['Vardagsord och fraser','Delvis','1 000 ord samt fyra nya lektioner med dialoger, egna repliker, artiga frågor och vardagsord i sammanhang.','Använda orden i välbekanta situationer och enkla fraser. 1 000 ord är inget krav i kursplanen.'],
+ ['Lyssna och läsa','Delvis','Dialoger och en kort berättande text med engelsk uppläsning per replik och hel text samt förståelsefrågor.','Fler instruktioner, illustrerade berättelser, ramsor, filmer och varierande röster.'],
+ ['Tala och skriva','Delvis','Rollval, dialoger för två personer och eget sparat engelskt meddelande i varje lektion.','Genomföra samtalen med en annan person och få återkoppling på begriplighet. Ingen mikrofon eller automatisk uttalsbedömning används.'],
+ ['Levnadssätt och uttryck','Introduktion','Enkla vardagssituationer och en introduktion till att engelska används på många platser och uttalas olika.','Vardag i miljöer där engelska används samt sång, lek och dramatisering.']
 ],next:'Öva tillsammans: Hello! My name is … I like … What do you like? Byt roller och skriv två egna meningar.'},
 ...['Biologi','Fysik','Kemi'].map((subject,i)=>({subject,code:['BIO','FYS','KEM'][i],stage:'1–3',shared:'NO har gemensamt centralt innehåll i årskurs 1–3. Samma luckor visas under alla tre ämnena.',areas:[
- ['Natur och liv','Introduktion','Två lästexter berör odling och höstlöv; ingen sammanhållen NO-kurs.','Årstider, arter, växters och djurs liv, livsmiljöer och enkla näringskedjor.'],
- ['Kropp och välmående','Saknas','Ingen egen undervisningsdel.','Organ, sinnen, sömn, mat, rörelse, hygien och relationer.'],
- ['Rörelse och rymden','Introduktion','En berättelse utspelar sig på bibliotekets rymdhylla.','Undersöka balans, friktion och tyngdkraft samt solsystemets rörelser. En berättelse om en bok täcker inte astronomi.'],
- ['Ämnen och undersökningar','Introduktion','3D-kursen visar ett materials användning och att prova en modell.','Flyta och sjunka, magnetism, återvinning, vattenformer, blandningar, enkla experiment och dokumentation.']
+ ['Natur och liv','Delvis','NO-lektioner om årstider, livscykler, arter och näringskedjor med observationsuppdrag.','Fler artnamn, fältstudier under flera årstider och fördjupning om livsmiljöer och svampar.'],
+ ['Kropp och välmående','Delvis','Ny lektion om hjärta, lungor, hjärna, sinnen och vardagsvanor samt ett ljuduppdrag.','Fler sinnesundersökningar och återkommande samtal om vad kroppen behöver och hur relationer påverkar måendet.'],
+ ['Rörelse och rymden','Delvis','Egna NO-lektioner om tyngdkraft, friktion, balans, sol, jord och måne med undersökningsuppdrag.','Pröva uppdragen, fler planeter, människan i rymden och fler dokumenterade undersökningar av jämvikt och tyngdpunkt.'],
+ ['Ämnen och undersökningar','Delvis','Nya NO-lektioner om vattenformer, kretslopp, material, filtrering, återvinning och hur en undersökning planeras och dokumenteras.','Genomföra och följa upp undersökningarna, fler separationstekniker och historiska exempel på hur naturvetenskap utvecklats.']
 ],next:'Gör en naturpromenad och rita tre arter. Utför sedan en enkel flyta–sjunka-undersökning med en vuxen och skriv vad ni observerar.'})),
 ...['Geografi','Historia','Religionskunskap','Samhällskunskap'].map((subject,i)=>({subject,code:['GEO','HIS','REL','SAM'][i],stage:'1–3',shared:'SO har gemensamt centralt innehåll i årskurs 1–3. Raderna visar det gemensamma området, inte fyra olika fullständiga kurser.',areas:[
- ['Människor tillsammans','Saknas','Berättelserna har vardagliga händelser men inga systematiska SO-lektioner.','Vänskap, livsfrågor, regler, migration, säkert trafikbeteende och vardag förr.'],
- ['Hemorten och historien','Saknas','Ingen egen SO-del.','Lokala samhällstjänster och yrken, platsers historia, istidsspår och kristendomens tidigare roll.'],
- ['Värld, tro och rättigheter','Saknas','Ingen egen SO-del.','Världsdelar och hav, tidiga människor och livet i forntidens Norden, myter, kristendom, islam och judendom, barnets rättigheter, demokrati, pengar och miljöfrågor.'],
- ['Undersöka och orientera sig','Introduktion','AI-kursen tränar att kontrollera ett påstående.','Intervjuer, observationer och jämförelse av källor, jordglob, kartor, väderstreck och tidslinjer.']
+ ['Människor tillsammans','Delvis','Nya SO-lektioner om regler, vänskap, rättigheter, demokrati, migration och trafik samt uppdrag för samtal.','Fler elevnära livsfrågor, könsroller, praktisk trafikträning och återkommande samtal med andra.'],
+ ['Hemorten och historien','Delvis','SO-lektioner om samhällsfunktioner, yrken, intervjuer, spår från förr och kyrkans tidigare roll i skolan.','Undersöka den faktiska hemorten, fler istidsspår och lokala byggnader samt använda lokala källor. Inga lokala fakta har antagits.'],
+ ['Värld, tro och rättigheter','Delvis','Lektioner om kartor, världsdelar och hav, forntid, kristendom, judendom, islam, myter, barnrätt, demokrati, pengar och miljöval.','Fler konkreta mytberättelser, samisk religion, människans uppkomst och vandringar, naturens betydelse för bosättning och återkommande arbete med aktuella samhällsfrågor.'],
+ ['Undersöka och orientera sig','Delvis','Egna SO-lektioner om källor, observation och åsikt, kartor, väderstreck och tidslinjer samt intervjuuppdrag.','Utföra uppdragen med riktiga källor, jordglob, kartor och platsbesök. Kontrollera om olika källor besvarar samma fråga.']
 ],next:'Rita en karta över en välbekant plats, gör en tidslinje över en dag och prata om en regel: varför finns den och kan den bli bättre?'})),
 {subject:'Teknik',code:'TEK',stage:'1–3',areas:[
  ['Teknik omkring oss','Introduktion','Nya AI-, 3D- och C++-kurser med exempel på datorer och modeller.','Vanliga föremåls funktion, teknikens förändring, inmatning, utmatning och lagring samt säker användning.'],
