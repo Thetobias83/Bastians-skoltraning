@@ -1,0 +1,49 @@
+const syllabus=code=>`https://syllabuswebb.skolverket.se/compulsorycw/jsp/subject.htm?subjectCode=GRGR${code}01&tos=gr`;
+const audit=[
+{subject:'Svenska',code:'SVE',stage:'1–3',areas:[
+ ['Läsa och förstå','Delvis','Sex korta texter, 18 läsfrågor, uppläsning och 1 000 ord.','Fler textgenrer, ljud–bokstav, läsflyt och samtal om budskap.'],
+ ['Skriva och bearbeta','Saknas','Ingen särskild skrivträning.','Skriva berättelser med början, händelser och slut; förbättra en text, stavning, skiljetecken och alfabetisk ordning.'],
+ ['Tala och lyssna','Delvis','En uppmaning att återberätta efter läsning.','Återberätta, ge instruktioner och hålla en kort presentation med en annan person.'],
+ ['Litteratur och olika uttryck','Delvis','Egna korta berättelser och en faktatext.','Dikter, sagor, dramatik, barnboksförfattare och illustratörer samt samspel mellan bild och text.'],
+ ['Språk och källor','Introduktion','Ordträning samt den nya AI-kursens övning att kontrollera påståenden.','Söka i böcker och barntjänster, jämföra avsändare, språkets nyanser och skillnader mellan tal och skrift.']
+],next:'Börja med en egen femmeningsberättelse. Läs högt, låt en vuxen fråga om innehållet och förbättra sedan en mening.'},
+{subject:'Matematik',code:'MAT',stage:'1–3',areas:[
+ ['Tal och beräkningar','Delvis','Slumpade uppgifter med fyra räknesätt och enkla textproblem.','Positionssystem, ordning och uppdelning av tal, bråk, överslag, skriftliga metoder och samband mellan räknesätten.'],
+ ['Likheter och mönster','Introduktion','C++-kursen visar tal i namngivna variabler och upprepning.','Likhetstecknets betydelse, saknade tal och fortsättning av tal- och bildmönster. C++-tilldelning är inte matematisk likhet.'],
+ ['Stegvisa instruktioner','Delvis','Nya C++-lektioner med ordning, villkor och upprepning samt en förutsägelseövning.','Låta en kamrat följa egna instruktioner, upptäcka fel och förbättra dem.'],
+ ['Form, mått och symmetri','Introduktion','Klockans hela och halva timmar. 3D-kursen visar rätblock och millimetermått.','Plana former, klot, kon, cylinder, lägesord, symmetri, enkel skala samt längd, massa och volym med olika enheter.'],
+ ['Slump och diagram','Saknas','Slumpade frågor är inte undervisning om slump.','Undersöka tärningskast, sortera data och göra enkla tabeller och diagram.'],
+ ['Samband och problemlösning','Delvis','Enstegsproblem, till exempel att lägga ihop kulor.','Dubbelt och hälften, välja strategier, förklara lösningar och bedöma om ett svar är rimligt.']
+],next:'Träna tiotal och ental, halvor och fjärdedelar samt att förklara hur du tänker. Räkna är mer än att välja rätt svar.'},
+{subject:'Engelska',code:'ENG',stage:'1–3',areas:[
+ ['Vardagsord och fraser','Delvis','1 000 vanliga ord, två översättningsriktningar och uppläsning.','Använda orden i välbekanta situationer och enkla fraser. 1 000 ord är inget krav i kursplanen.'],
+ ['Lyssna och läsa','Delvis','Uppläsning av enskilda ord och betydelser.','Sammanhängande enkla texter, dialoger, instruktioner, skyltar, barnberättelser och ramsor.'],
+ ['Tala och skriva','Saknas','Inga särskilda samtals- eller skrivuppgifter på engelska.','Presentera sig, beskriva ett föremål, fråga och svara samt skriva enkla meddelanden.'],
+ ['Levnadssätt och uttryck','Saknas','Ingen sammanhållen del.','Vardag i miljöer där engelska används samt sång, lek och dramatisering.']
+],next:'Öva tillsammans: Hello! My name is … I like … What do you like? Byt roller och skriv två egna meningar.'},
+...['Biologi','Fysik','Kemi'].map((subject,i)=>({subject,code:['BIO','FYS','KEM'][i],stage:'1–3',shared:'NO har gemensamt centralt innehåll i årskurs 1–3. Samma luckor visas under alla tre ämnena.',areas:[
+ ['Natur och liv','Introduktion','Två lästexter berör odling och höstlöv; ingen sammanhållen NO-kurs.','Årstider, arter, växters och djurs liv, livsmiljöer och enkla näringskedjor.'],
+ ['Kropp och välmående','Saknas','Ingen egen undervisningsdel.','Organ, sinnen, sömn, mat, rörelse, hygien och relationer.'],
+ ['Rörelse och rymden','Introduktion','En berättelse utspelar sig på bibliotekets rymdhylla.','Undersöka balans, friktion och tyngdkraft samt solsystemets rörelser. En berättelse om en bok täcker inte astronomi.'],
+ ['Ämnen och undersökningar','Introduktion','3D-kursen visar ett materials användning och att prova en modell.','Flyta och sjunka, magnetism, återvinning, vattenformer, blandningar, enkla experiment och dokumentation.']
+],next:'Gör en naturpromenad och rita tre arter. Utför sedan en enkel flyta–sjunka-undersökning med en vuxen och skriv vad ni observerar.'})),
+...['Geografi','Historia','Religionskunskap','Samhällskunskap'].map((subject,i)=>({subject,code:['GEO','HIS','REL','SAM'][i],stage:'1–3',shared:'SO har gemensamt centralt innehåll i årskurs 1–3. Raderna visar det gemensamma området, inte fyra olika fullständiga kurser.',areas:[
+ ['Människor tillsammans','Saknas','Berättelserna har vardagliga händelser men inga systematiska SO-lektioner.','Vänskap, livsfrågor, regler, migration, säkert trafikbeteende och vardag förr.'],
+ ['Hemorten och historien','Saknas','Ingen egen SO-del.','Lokala samhällstjänster och yrken, platsers historia, istidsspår och kristendomens tidigare roll.'],
+ ['Värld, tro och rättigheter','Saknas','Ingen egen SO-del.','Världsdelar och hav, tidiga människor och livet i forntidens Norden, myter, kristendom, islam och judendom, barnets rättigheter, demokrati, pengar och miljöfrågor.'],
+ ['Undersöka och orientera sig','Introduktion','AI-kursen tränar att kontrollera ett påstående.','Intervjuer, observationer och jämförelse av källor, jordglob, kartor, väderstreck och tidslinjer.']
+],next:'Rita en karta över en välbekant plats, gör en tidslinje över en dag och prata om en regel: varför finns den och kan den bli bättre?'})),
+{subject:'Teknik',code:'TEK',stage:'1–3',areas:[
+ ['Teknik omkring oss','Introduktion','Nya AI-, 3D- och C++-kurser med exempel på datorer och modeller.','Vanliga föremåls funktion, teknikens förändring, inmatning, utmatning och lagring samt säker användning.'],
+ ['Material och mekanismer','Introduktion','3D-kursen introducerar lager, skiss, rätblock och materialåtgång.','Enkla mekanismer i vardagssaker, olika materials egenskaper och sammanfogning.'],
+ ['Undersöka, bygga och styra','Delvis','Modellförslag, STL för ett enkelt rätblock och C++-övningar för instruktioner.','Bygga och förbättra egna konstruktioner, dokumentera arbetet och faktiskt styra ett föremål. Kodförhandsvisning är inte styrning av en fysisk robot.']
+],next:'Bygg en kartongmodell först. Visa med en skiss hur den fungerar och prova om den löser det problem du tänkt.'},
+{subject:'Bild',code:'BIL',stage:'1–3',areas:[['Bilder och bildberättande','Saknas','3D-projektet föreslår en skiss; det finns ingen bildkurs.','Teckna, måla, modellera, bygga, skapa kollage och fotografera.'],['Tolka bilder och använda verktyg','Saknas','Ingen egen del.','Form, färg, bakgrund, bilders budskap och normer, bildetik samt praktiskt verktygsarbete.']],next:'Rita tre bilder som berättar en historia. Berätta vad färgerna, figurerna och bakgrunden visar.'},
+{subject:'Musik',code:'MUS',stage:'1–3',areas:[['Sjunga, spela och skapa','Saknas','Ingen musikundervisning i appen.','Sångformer, instrumentspel, härmning, improvisation och egna ljudberättelser.'],['Musikens delar och sammanhang','Saknas','Ingen egen del.','Puls, rytm, tempo, tonhöjd, klang, starkt och svagt, enkla noter, instrument och hörselvård samt musik i olika sammanhang.']],next:'Klappa en jämn puls, gör en egen rytm och låt någon härma. Prata om skillnaden mellan puls och rytm.'},
+{subject:'Idrott och hälsa',code:'IDR',stage:'1–3',areas:[['Rörelse och vattenvana','Saknas','Ingen praktisk undervisning eller bedömning.','Lek, grundrörelser, dans, vattenvana, flyta och simma.'],['Utevistelse och hälsa','Saknas','Ingen egen del.','Enkla kartor, naturaktiviteter, allemansrätt, daglig rörelse samt säkerhet och hänsyn.']],next:'Öva rörelselekar och orientering i en trygg miljö. Vattenvana och simning ska övas under ansvarig vuxens tillsyn, inte bedömas med webbfrågor.'},
+{subject:'Slöjd',code:'SLJ',stage:'1–3',areas:[['Material, verktyg och arbete','Saknas','3D-print ersätter inte slöjdens material- och verktygsträning.','Arbete med trä, metall och textil, säkra verktyg, hantverkstekniker och arbetsbeskrivningar.'],['Idé, genomförande och eftertanke','Introduktion','3D-kursens skiss och förbättringsförslag kan stödja planering.','Genomföra praktiskt slöjdarbete, reflektera över resultat samt förstå materialens ursprung och hushålla med dem.']],next:'Gör ett litet projekt med en lärare eller kunnig vuxen. Rita en idé, välj material och berätta efteråt vad du skulle ändra.'},
+{subject:'Hem- och konsumentkunskap',code:'HKK',stage:'1–6',areas:[['Mat, konsumtion och hushåll','Saknas','Ingen särskild kurs.','Följa recept, hantera mat och redskap, hygien, varierad mat, reklam, sparande, prisjämförelser, rengöring och återvinning.']],next:'Kursplanens intervall är 1–6. När ämnet undervisas bestäms lokalt; detta är inte en lista över vad som måste vara färdigt i trean. Följ ett enkelt recept med en vuxen när det passar skolans upplägg.'}
+];
+for(const row of audit)row.url=syllabus(row.code);
+const auditMeta={date:'2026-11-01',basis:'Lgr22, centralt innehåll för årskurs 1–3; hem- och konsumentkunskap 1–6.',scope:'Inventeringen bedömer webbplatsens innehåll, inte Bastians kunskaper. Skolans lokala planering och lärarens material har inte hämtats. Det centrala innehållet anges för ett årskursintervall, inte som en separat lista för just trean. Engelska och teknik har inga särskilda betygskriterier för slutet av årskurs 3.',extension:'AI, 3D-print och programspråket C++ är valda fördjupningar. Stegvisa instruktioner och programmering samt modeller och konstruktioner har kopplingar till matematik och teknik. Kursplanen kräver inte just dessa verktyg eller detta språk.'};
+export {audit,auditMeta};
