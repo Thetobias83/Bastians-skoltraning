@@ -1,0 +1,392 @@
+{
+  "date": "2026-11-02",
+  "scope": "Redaktionell genomläsning och ämnesvis källkontroll. Inte separat extern verifiering av varje ordkort.",
+  "words": {
+    "en": 1000,
+    "sv": 1000
+  },
+  "reading": [
+    {
+      "id": "read-0",
+      "title": "Den hemliga kojan",
+      "questions": 3
+    },
+    {
+      "id": "read-1",
+      "title": "Cykeln som fick luft",
+      "questions": 3
+    },
+    {
+      "id": "read-2",
+      "title": "Fröet i fönstret",
+      "questions": 3
+    },
+    {
+      "id": "read-3",
+      "title": "En överraskning på biblioteket",
+      "questions": 3
+    },
+    {
+      "id": "read-4",
+      "title": "Den bortglömda väskan",
+      "questions": 3
+    },
+    {
+      "id": "read-5",
+      "title": "Varför löven byter färg",
+      "questions": 3
+    }
+  ],
+  "school": [
+    {
+      "group": "Skrivande",
+      "id": "write-story",
+      "title": "1. En berättelse i tre delar",
+      "questions": 2
+    },
+    {
+      "group": "Skrivande",
+      "id": "write-edit",
+      "title": "2. Gör texten tydligare",
+      "questions": 2
+    },
+    {
+      "group": "Skrivande",
+      "id": "write-fact",
+      "title": "3. Förklara hur något fungerar",
+      "questions": 2
+    },
+    {
+      "group": "Skrivande",
+      "id": "write-instructions",
+      "title": "4. En instruktion som går att följa",
+      "questions": 2
+    },
+    {
+      "group": "Engelska",
+      "id": "eng-hello",
+      "title": "1. Hello! Vad heter du?",
+      "questions": 2
+    },
+    {
+      "group": "Engelska",
+      "id": "eng-play",
+      "title": "2. Ska vi leka?",
+      "questions": 2
+    },
+    {
+      "group": "Engelska",
+      "id": "eng-shop",
+      "title": "3. I affären och i klassrummet",
+      "questions": 2
+    },
+    {
+      "group": "Engelska",
+      "id": "eng-day",
+      "title": "4. Läs, lyssna och skriv ett meddelande",
+      "questions": 2
+    },
+    {
+      "group": "Matte",
+      "id": "math-place",
+      "title": "1. Hundratal, tiotal och ental",
+      "questions": 2
+    },
+    {
+      "group": "Matte",
+      "id": "math-fractions",
+      "title": "2. Halvor och fjärdedelar",
+      "questions": 2
+    },
+    {
+      "group": "Matte",
+      "id": "math-equal",
+      "title": "3. Likhet och saknade tal",
+      "questions": 2
+    },
+    {
+      "group": "Matte",
+      "id": "math-pattern",
+      "title": "4. Mönster och stegvisa instruktioner",
+      "questions": 2
+    },
+    {
+      "group": "Matte",
+      "id": "math-shapes",
+      "title": "5. Former, lägen och symmetri",
+      "questions": 2
+    },
+    {
+      "group": "Matte",
+      "id": "math-measure",
+      "title": "6. Mäta och jämföra",
+      "questions": 2
+    },
+    {
+      "group": "Matte",
+      "id": "math-data",
+      "title": "7. Samla data och undersök slump",
+      "questions": 2
+    },
+    {
+      "group": "Matte",
+      "id": "math-reason",
+      "title": "8. Välj metod och kontrollera",
+      "questions": 2
+    },
+    {
+      "group": "NO",
+      "id": "no-seasons",
+      "title": "1. Naturen under året",
+      "questions": 2
+    },
+    {
+      "group": "NO",
+      "id": "no-foodchain",
+      "title": "2. Arter och näringskedjor",
+      "questions": 2
+    },
+    {
+      "group": "NO",
+      "id": "no-body",
+      "title": "3. Kroppen, sinnena och vardagen",
+      "questions": 2
+    },
+    {
+      "group": "NO",
+      "id": "no-forces",
+      "title": "4. Rörelse, balans och friktion",
+      "questions": 2
+    },
+    {
+      "group": "NO",
+      "id": "no-space",
+      "title": "5. Solen, jorden och månen",
+      "questions": 2
+    },
+    {
+      "group": "NO",
+      "id": "no-water",
+      "title": "6. Vatten byter form",
+      "questions": 2
+    },
+    {
+      "group": "NO",
+      "id": "no-material",
+      "title": "7. Material, blandningar och återvinning",
+      "questions": 2
+    },
+    {
+      "group": "NO",
+      "id": "no-investigate",
+      "title": "8. Fråga, prova och berätta",
+      "questions": 2
+    },
+    {
+      "group": "SO",
+      "id": "so-together",
+      "title": "1. Regler, vänskap och rättigheter",
+      "questions": 2
+    },
+    {
+      "group": "SO",
+      "id": "so-nearby",
+      "title": "2. Människor och service omkring oss",
+      "questions": 2
+    },
+    {
+      "group": "SO",
+      "id": "so-past",
+      "title": "3. Tiden och forntidens Norden",
+      "questions": 2
+    },
+    {
+      "group": "SO",
+      "id": "so-localhistory",
+      "title": "4. Vad kan en plats berätta?",
+      "questions": 2
+    },
+    {
+      "group": "SO",
+      "id": "so-maps",
+      "title": "5. Kartor och världen",
+      "questions": 2
+    },
+    {
+      "group": "SO",
+      "id": "so-christian",
+      "title": "6. Kristendom, berättelser och högtider",
+      "questions": 2
+    },
+    {
+      "group": "SO",
+      "id": "so-jewish-islam",
+      "title": "7. Judendom och islam",
+      "questions": 2
+    },
+    {
+      "group": "SO",
+      "id": "so-myths",
+      "title": "8. Myter och frågor om livet",
+      "questions": 2
+    },
+    {
+      "group": "SO",
+      "id": "so-money",
+      "title": "9. Pengar, val och miljö",
+      "questions": 2
+    },
+    {
+      "group": "SO",
+      "id": "so-sources",
+      "title": "10. Undersök en fråga med flera källor",
+      "questions": 2
+    }
+  ],
+  "explorers": [
+    {
+      "group": "AI",
+      "id": "ai-examples",
+      "title": "1. Lär med exempel",
+      "questions": 2
+    },
+    {
+      "group": "AI",
+      "id": "ai-check",
+      "title": "2. En säker röst kan ha fel",
+      "questions": 2
+    },
+    {
+      "group": "AI",
+      "id": "ai-kind",
+      "title": "3. Fråga klokt och var schysst",
+      "questions": 2
+    },
+    {
+      "group": "3D-print",
+      "id": "print-layers",
+      "title": "1. Bygg ett lager i taget",
+      "questions": 2
+    },
+    {
+      "group": "3D-print",
+      "id": "print-design",
+      "title": "2. Rita, mät och förbättra",
+      "questions": 2
+    },
+    {
+      "group": "3D-print",
+      "id": "print-safe",
+      "title": "3. Skriv ut med en vuxen",
+      "questions": 2
+    },
+    {
+      "group": "C++",
+      "id": "cpp-hello",
+      "title": "1. Datorn följer steg",
+      "questions": 2
+    },
+    {
+      "group": "C++",
+      "id": "cpp-box",
+      "title": "2. En låda för ett tal",
+      "questions": 2
+    },
+    {
+      "group": "C++",
+      "id": "cpp-if",
+      "title": "3. Om det händer – gör så här",
+      "questions": 2
+    },
+    {
+      "group": "C++",
+      "id": "cpp-repeat",
+      "title": "4. Gör något flera gånger",
+      "questions": 2
+    }
+  ],
+  "office": [
+    {
+      "id": "office-word-0",
+      "title": "Min första text",
+      "questions": 1
+    },
+    {
+      "id": "office-word-1",
+      "title": "Rubrik och lista",
+      "questions": 1
+    },
+    {
+      "id": "office-word-2",
+      "title": "Fakta som går att kontrollera",
+      "questions": 1
+    },
+    {
+      "id": "office-word-3",
+      "title": "En liten rapport",
+      "questions": 1
+    },
+    {
+      "id": "office-excel-0",
+      "title": "Hitta cellen",
+      "questions": 1
+    },
+    {
+      "id": "office-excel-1",
+      "title": "Låt formeln räkna",
+      "questions": 1
+    },
+    {
+      "id": "office-excel-2",
+      "title": "Jämför och visa",
+      "questions": 1
+    },
+    {
+      "id": "office-excel-3",
+      "title": "Villkor och låsta celler",
+      "questions": 1
+    },
+    {
+      "id": "office-powerpoint-0",
+      "title": "Min första bild",
+      "questions": 1
+    },
+    {
+      "id": "office-powerpoint-1",
+      "title": "Början, mitten och slut",
+      "questions": 1
+    },
+    {
+      "id": "office-powerpoint-2",
+      "title": "Berätta med stödord",
+      "questions": 1
+    },
+    {
+      "id": "office-powerpoint-3",
+      "title": "Ett genomtänkt föredrag",
+      "questions": 1
+    }
+  ],
+  "play": [
+    {
+      "id": "start",
+      "title": "Fröets första steg"
+    },
+    {
+      "id": "memory",
+      "title": "Packa skattväskan"
+    },
+    {
+      "id": "detective",
+      "title": "Spårdetektiven"
+    },
+    {
+      "id": "robot",
+      "title": "Robotens små steg"
+    },
+    {
+      "id": "pause",
+      "title": "Den lugna viken"
+    }
+  ]
+}

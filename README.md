@@ -44,3 +44,7 @@ Innehållet hänvisar till Microsofts svenska hjälpsidor; menyer kan skilja sig
 - [Excel: SUMMA](https://support.microsoft.com/sv-se/excel/functions/sum-function)
 - [Excel: relativa och absoluta referenser](https://support.microsoft.com/sv-se/excel/switch-between-relative-and-absolute-references)
 - [PowerPoint: grunduppgifter och stödanteckningar](https://support.microsoft.com/sv-se/powerpoint/basic-tasks-for-creating-a-powerpoint-presentation)
+
+## Faktakontroll
+
+Genomgång 2 november 2026: [resultat, källor och begränsningar](FACT-CHECK.md), [granskat innehåll](FACT-CHECK-INVENTORY.json) och [101 ordrättelser och preciseringar](FACT-CHECK-WORDS.json). Sammanfattningen kan också läsas under Läroplan i appen.

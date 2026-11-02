@@ -24,10 +24,12 @@ function wordQuestion(lang,index,reverse=false){
  const target=reverse?pair[0]:pair[1],options=new Set([target]);
  // Exclude equal translations in reverse questions, so "year" and "years"
  // cannot be offered as competing answers when both translate as "år".
- const acceptable=p=>p!==pair&&p[1]!==pair[1]&&(reverse?p[0]:p[1])!==target;
+ const meaningParts=value=>value.toLocaleLowerCase('sv').split(/[;,]/).map(x=>x.trim()).filter(Boolean);
+ const meanings=meaningParts(pair[1]);
+ const acceptable=p=>p!==pair&&p[1]!==pair[1]&&!meaningParts(p[1]).some(x=>meanings.includes(x))&&(reverse?p[0]:p[1])!==target;
  for(let tries=0;options.size<4&&tries<100;tries++){const p=list[Math.floor(Math.random()*list.length)];if(acceptable(p))options.add(reverse?p[0]:p[1]);}
  if(options.size<4)for(const p of list){if(acceptable(p))options.add(reverse?p[0]:p[1]);if(options.size===4)break;}
- return {id:wordId(lang,pair[0],reverse),subject:lang==='en'?'Engelska':'Svenska ord',q:reverse?`Vilket engelskt ord har betydelsen ”${pair[1]}”?`:`Vad betyder ”${pair[0]}”?`,options:shuffle([...options]),answer:target,explain:`${pair[0]}: ${pair[1]}. Ord kan ha flera betydelser. Här tränar vi den som visas på kortet.`,speak:reverse?pair[1]:pair[0],lang:reverse?'sv-SE':lang==='en'?'en-GB':'sv-SE'};
+ return {id:wordId(lang,pair[0],reverse),subject:lang==='en'?'Engelska':'Svenska ord',q:reverse?`Vilket engelskt ord stod på kortet med betydelsen ”${pair[1]}”?`:`Vilken betydelse visades på kortet för ”${pair[0]}”?`,options:shuffle([...options]),answer:target,explain:`${pair[0]}: ${pair[1]}. Här repeterar vi kortets ordpar. Andra översättningar kan också vara riktiga i andra sammanhang.`,speak:reverse?pair[1]:pair[0],lang:reverse?'sv-SE':lang==='en'?'en-GB':'sv-SE'};
 }
 function wordBatchIndices(lang,batch=0){const list=lang==='en'?english:swedish;if(batch==='all')return list.map((_,i)=>i);const start=Number(batch)*20;return list.slice(start,start+20).map((_,i)=>start+i);}
 const legacyWords={"en": ["dog", "cat", "bird", "horse", "house", "school", "book", "pencil", "friend", "water", "apple", "bread", "milk", "red", "blue", "green", "yellow", "happy", "small", "big", "run", "read", "write", "play", "door", "window", "tree", "sun", "rain", "night", "morning", "family", "sister", "brother", "chair", "table"], "sv": ["modig", "nyfiken", "försiktig", "samarbeta", "upptäcka", "förklara", "jämföra", "plötsligt", "viska", "enorm", "pytteliten", "sällsynt", "vanlig", "låna", "ansvar", "stig", "gryning", "skymning", "sakna", "tålmodig", "förut", "snart", "motsats", "synonym"]};

@@ -45,7 +45,7 @@ function renderCard(){
  button('Blanda omgången',()=>{deck=shuffle(deck);card=0;flipped=false;renderCard();},c);
  if(en)selectControl('Träningsriktning',[['no','Engelska → svenska'],['yes','Svenska → engelska']],reverse?'yes':'no',v=>reverse=v==='yes',p);
  button('Öva på den här omgången',()=>{current=nextWordQuestion();renderQuestion();},p,'primary');
- el('p','Ordkorten är till för att lära. Bara besvarade frågor räknas i framstegen. Ord kan ha flera betydelser; kortet visar ett urval.',p,'meta');
+ el('p','Ordkorten är till för att lära. Bara besvarade frågor räknas i framstegen. Ord kan ha flera betydelser; kortet visar ett urval. Ordfrågorna repeterar kortens ordpar och är inte ett test av alla möjliga översättningar.',p,'meta');
 }
 function nextWordQuestion(){const en=view==='Engelska',lang=en?'en':'sv';return weighted(wordBatchIndices(lang,wordBatch[lang]).map(i=>wordQuestion(lang,i,en&&reverse)));}
 function wordList(lang){

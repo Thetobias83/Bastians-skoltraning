@@ -1,0 +1,612 @@
+{
+  "date": "2026-11-02",
+  "note": "Rättelser och pedagogiska preciseringar; inte alla var sakfel. Ord och beständiga id bevaras.",
+  "changes": [
+    {
+      "language": "en",
+      "word": "an",
+      "before": "en",
+      "after": "en eller ett; används före ett vokalljud, som i an apple"
+    },
+    {
+      "language": "en",
+      "word": "its",
+      "before": "dess; sin",
+      "after": "dess; som tillhör den eller det: the cat and its tail = katten och dess svans"
+    },
+    {
+      "language": "en",
+      "word": "might",
+      "before": "skulle",
+      "after": "kanske; skulle kunna"
+    },
+    {
+      "language": "en",
+      "word": "able",
+      "before": "duktig",
+      "after": "kapabel; be able to = kunna"
+    },
+    {
+      "language": "en",
+      "word": "included",
+      "before": "inklusive",
+      "after": "ingår; inkluderad"
+    },
+    {
+      "language": "en",
+      "word": "including",
+      "before": "även",
+      "after": "inklusive; bland annat"
+    },
+    {
+      "language": "en",
+      "word": "free",
+      "before": "gratis",
+      "after": "fri; gratis"
+    },
+    {
+      "language": "en",
+      "word": "second",
+      "before": "andra",
+      "after": "andra; sekund"
+    },
+    {
+      "language": "en",
+      "word": "long",
+      "before": "länge",
+      "after": "lång; länge"
+    },
+    {
+      "language": "en",
+      "word": "save",
+      "before": "rädda",
+      "after": "spara; rädda"
+    },
+    {
+      "language": "en",
+      "word": "share",
+      "before": "del",
+      "after": "dela; andel"
+    },
+    {
+      "language": "en",
+      "word": "focus",
+      "before": "centrum",
+      "after": "fokus; fokusera"
+    },
+    {
+      "language": "en",
+      "word": "consider",
+      "before": "tycka",
+      "after": "överväga; anse"
+    },
+    {
+      "language": "en",
+      "word": "college",
+      "before": "skola",
+      "after": "högskola eller annan utbildningsinstitution; betydelsen varierar mellan länder"
+    },
+    {
+      "language": "en",
+      "word": "study",
+      "before": "läsa",
+      "after": "studera; studie"
+    },
+    {
+      "language": "en",
+      "word": "poor",
+      "before": "dålig",
+      "after": "fattig; dålig"
+    },
+    {
+      "language": "en",
+      "word": "decided",
+      "before": "bestämd",
+      "after": "bestämde; beslutad"
+    },
+    {
+      "language": "en",
+      "word": "personal",
+      "before": "privat",
+      "after": "personlig"
+    },
+    {
+      "language": "en",
+      "word": "service",
+      "before": "hjälp",
+      "after": "tjänst; service"
+    },
+    {
+      "language": "en",
+      "word": "report",
+      "before": "berätta",
+      "after": "rapport; rapportera"
+    },
+    {
+      "language": "en",
+      "word": "general",
+      "before": "vanlig",
+      "after": "allmän; generell"
+    },
+    {
+      "language": "en",
+      "word": "class",
+      "before": "grupp",
+      "after": "klass; grupp"
+    },
+    {
+      "language": "en",
+      "word": "river",
+      "before": "älv",
+      "after": "flod; älv"
+    },
+    {
+      "language": "en",
+      "word": "practice",
+      "before": "träna",
+      "after": "övning; öva"
+    },
+    {
+      "language": "en",
+      "word": "officer",
+      "before": "polis",
+      "after": "tjänsteman; officer; polis i uttrycket police officer"
+    },
+    {
+      "language": "en",
+      "word": "army",
+      "before": "här",
+      "after": "armé"
+    },
+    {
+      "language": "en",
+      "word": "boys",
+      "before": "Pojkar",
+      "after": "pojkar"
+    },
+    {
+      "language": "en",
+      "word": "given",
+      "before": "given; gett",
+      "after": "gett; given"
+    },
+    {
+      "language": "en",
+      "word": "giving",
+      "before": "ge",
+      "after": "ger; givande"
+    },
+    {
+      "language": "en",
+      "word": "held",
+      "before": "hållen",
+      "after": "höll; hållit; hållen"
+    },
+    {
+      "language": "en",
+      "word": "built",
+      "before": "byggt",
+      "after": "byggde; byggt"
+    },
+    {
+      "language": "en",
+      "word": "created",
+      "before": "skapade",
+      "after": "skapade; skapad"
+    },
+    {
+      "language": "en",
+      "word": "cover",
+      "before": "skydda",
+      "after": "täcka; omslag"
+    },
+    {
+      "language": "en",
+      "word": "related",
+      "before": "släkt",
+      "after": "besläktad; som har samband med"
+    },
+    {
+      "language": "en",
+      "word": "straight",
+      "before": "direkt",
+      "after": "rak; rakt"
+    },
+    {
+      "language": "en",
+      "word": "original",
+      "before": "första",
+      "after": "ursprunglig; original"
+    },
+    {
+      "language": "en",
+      "word": "lady",
+      "before": "fru",
+      "after": "dam; kvinna"
+    },
+    {
+      "language": "en",
+      "word": "policy",
+      "before": "politik",
+      "after": "riktlinje; policy"
+    },
+    {
+      "language": "en",
+      "word": "gone",
+      "before": "gått; borta",
+      "after": "borta; gått eller åkt: has gone = har gått eller åkt"
+    },
+    {
+      "language": "en",
+      "word": "sorry",
+      "before": "ledsen",
+      "after": "ledsen; förlåt"
+    },
+    {
+      "language": "en",
+      "word": "what",
+      "before": "vad",
+      "after": "vad; vilken eller vilket i frågor"
+    },
+    {
+      "language": "sv",
+      "word": "man",
+      "before": "en vuxen person; kan också betyda människor i allmänhet",
+      "after": "en vuxen person som är man; också ett ord för människor i allmänhet: man behöver vila"
+    },
+    {
+      "language": "sv",
+      "word": "svensk",
+      "before": "(manlig) person från Sverige",
+      "after": "som har med Sverige att göra; också en person med svensk tillhörighet"
+    },
+    {
+      "language": "sv",
+      "word": "barn",
+      "before": "en ung människa från födseln och något tiotal år framåt; en persons son eller dotter",
+      "after": "en ung person; också någons son eller dotter, även när personen blivit vuxen"
+    },
+    {
+      "language": "sv",
+      "word": "djur",
+      "before": "levande varelse som inte är en växt (el. människa)",
+      "after": "en organism i djurriket, som en fjäril, fisk eller hund; biologiskt är människan också ett djur"
+    },
+    {
+      "language": "sv",
+      "word": "and",
+      "before": "en vattenfågel som liknar en liten anka",
+      "after": "en vattenfågel med bred näbb, till exempel en gräsand; en anka är en tam and"
+    },
+    {
+      "language": "sv",
+      "word": "fri",
+      "before": "gratis",
+      "after": "inte fången eller bunden; som får bestämma själv"
+    },
+    {
+      "language": "sv",
+      "word": "video",
+      "before": "videobandspelare",
+      "after": "rörliga bilder som spelats in eller visas på en skärm, ofta med ljud"
+    },
+    {
+      "language": "sv",
+      "word": "film",
+      "before": "skådespel som återges med rörliga bilder",
+      "after": "en följd av rörliga bilder, till exempel en spelfilm, dokumentär eller tecknad film"
+    },
+    {
+      "language": "sv",
+      "word": "språk",
+      "before": "(människans) sätt att meddela sig (genom tal och skrift)",
+      "after": "ett sätt att uttrycka och förstå budskap, till exempel genom tal, skrift eller tecken"
+    },
+    {
+      "language": "sv",
+      "word": "dag",
+      "before": "tid, period",
+      "after": "ett dygn eller den ljusa delen av dygnet, beroende på sammanhang"
+    },
+    {
+      "language": "sv",
+      "word": "natt",
+      "before": "mörk del av ett dygn",
+      "after": "tiden mellan kväll och morgon; den är inte mörk överallt och hela året"
+    },
+    {
+      "language": "sv",
+      "word": "genom",
+      "before": "med, med hjälp av; på grund av",
+      "after": "från ena sidan till den andra: genom tunneln; också med hjälp av"
+    },
+    {
+      "language": "sv",
+      "word": "vilken",
+      "before": "som",
+      "after": "ett ord som frågar efter en av flera: vilken bok vill du läsa?"
+    },
+    {
+      "language": "sv",
+      "word": "per",
+      "before": "med (hjälp av), via",
+      "after": "för varje: två kronor per äpple; också via, som i per post"
+    },
+    {
+      "language": "sv",
+      "word": "sedan",
+      "before": "från, efter",
+      "after": "efter det; från en viss tid: sedan i går"
+    },
+    {
+      "language": "sv",
+      "word": "knappt",
+      "before": "nätt och jämnt; knappast",
+      "after": "lite mindre än: knappt tio är mindre än tio; också nästan inte"
+    },
+    {
+      "language": "sv",
+      "word": "förutom",
+      "before": "utom, med undantag av",
+      "after": "utöver eller med undantag av, beroende på sammanhang"
+    },
+    {
+      "language": "sv",
+      "word": "strax",
+      "before": "genast, omedelbart",
+      "after": "om en liten stund eller alldeles nära i tid: strax före lunch"
+    },
+    {
+      "language": "sv",
+      "word": "vänster",
+      "before": "som finns på samma sida som hjärtat (hos iakttagaren)",
+      "after": "den motsatta sidan till höger; när du är vänd mot norr är väster åt vänster"
+    },
+    {
+      "language": "sv",
+      "word": "höger",
+      "before": "höger sida",
+      "after": "den motsatta sidan till vänster; när du är vänd mot norr är öster åt höger"
+    },
+    {
+      "language": "sv",
+      "word": "mm",
+      "before": "med mera",
+      "after": "millimeter; skrivsättet m.m. betyder med mera"
+    },
+    {
+      "language": "sv",
+      "word": "jul",
+      "before": "helgen 24-26 december",
+      "after": "en högtid med kristen bakgrund om Jesu födelse; firandet och datumen varierar mellan traditioner"
+    },
+    {
+      "language": "sv",
+      "word": "islam",
+      "before": "religion instiftad av Muhammed på 600-talet",
+      "after": "en religion där Koranen är helig skrift och Muhammed räknas som profet"
+    },
+    {
+      "language": "sv",
+      "word": "idiot",
+      "before": "mycket dum person, stolle",
+      "after": "ett förolämpande ord som används för att kalla någon dum; använd det inte om andra"
+    },
+    {
+      "language": "sv",
+      "word": "förrän",
+      "before": "innan",
+      "after": "innan en viss tid, oftast efter inte: vi går inte förrän klockan tre"
+    },
+    {
+      "language": "sv",
+      "word": "exempel",
+      "before": "föredöme, mönster",
+      "after": "något som visar vad man menar: äpple är ett exempel på en frukt"
+    },
+    {
+      "language": "sv",
+      "word": "redan",
+      "before": "så här (oväntat) tidigt",
+      "after": "så tidigt som nu eller före den tid man jämför med: jag har redan ätit"
+    },
+    {
+      "language": "sv",
+      "word": "allting",
+      "before": "allt, vad som helst",
+      "after": "allt; hela mängden av det man talar om"
+    },
+    {
+      "language": "sv",
+      "word": "lägenhet",
+      "before": "bostad (i hyreshus), våning",
+      "after": "en bostad som är en del av ett hus, ofta med flera bostäder"
+    },
+    {
+      "language": "sv",
+      "word": "kön",
+      "before": "egenskapen att vara hane eller hona",
+      "after": "en form av kö: kön till bussen; också ett ord för biologiskt kön eller könstillhörighet"
+    },
+    {
+      "language": "sv",
+      "word": "själv",
+      "before": "utan hjälp",
+      "after": "utan hjälp eller sällskap; också som betoning: jag gjorde det själv"
+    },
+    {
+      "language": "sv",
+      "word": "antal",
+      "before": "mängd",
+      "after": "hur många det finns av något"
+    },
+    {
+      "language": "sv",
+      "word": "ställe",
+      "before": "hus, lokal",
+      "after": "en plats"
+    },
+    {
+      "language": "sv",
+      "word": "ursäkt",
+      "before": "förlåtelse",
+      "after": "en begäran om förlåtelse; också en förklaring till varför något blev fel"
+    },
+    {
+      "language": "sv",
+      "word": "ekonomi",
+      "before": "sparsamhet, hushållning",
+      "after": "hur pengar och andra resurser används och fördelas"
+    },
+    {
+      "language": "sv",
+      "word": "uppdrag",
+      "before": "tilldelat arbete som skall utföras inom en viss tid",
+      "after": "en uppgift som någon har fått att göra"
+    },
+    {
+      "language": "sv",
+      "word": "massa",
+      "before": "stor mängd människor",
+      "after": "en stor mängd; i fysik en egenskap som ofta mäts i gram eller kilogram"
+    },
+    {
+      "language": "sv",
+      "word": "halv",
+      "before": "en av två lika stora delar",
+      "after": "hälften av en helhet; en av två lika stora delar"
+    },
+    {
+      "language": "sv",
+      "word": "halva",
+      "before": "halva mängden el. omfånget",
+      "after": "hälften; en av två lika stora delar"
+    },
+    {
+      "language": "sv",
+      "word": "röra",
+      "before": "beröra, nudda",
+      "after": "flytta eller sätta i rörelse; också nudda vid något"
+    },
+    {
+      "language": "sv",
+      "word": "föräldrar",
+      "before": "de vuxna som är ett barns mamma eller pappa",
+      "after": "ett barns mammor eller pappor; man kan till exempel vara biologisk förälder eller adoptivförälder"
+    },
+    {
+      "language": "sv",
+      "word": "hus",
+      "before": "utrymme där människor, bor, vistas el. förvarar saker",
+      "after": "en byggnad där människor kan bo, arbeta eller förvara saker"
+    },
+    {
+      "language": "sv",
+      "word": "vanlig",
+      "before": "som förekommer ofta och därför är det normala",
+      "after": "som förekommer ofta"
+    },
+    {
+      "language": "sv",
+      "word": "politik",
+      "before": "inställning till och behandling av frågor som rör statens verksamhet; statskonst",
+      "after": "frågor och beslut om hur samhället ska fungera"
+    },
+    {
+      "language": "sv",
+      "word": "resultat",
+      "before": "följd som värderas",
+      "after": "det som blir följden av en handling eller undersökning"
+    },
+    {
+      "language": "sv",
+      "word": "information",
+      "before": "kunskap i form av fakta, upplysning, underrättelse",
+      "after": "uppgifter eller budskap som ger kunskap; de kan behöva kontrolleras"
+    },
+    {
+      "language": "sv",
+      "word": "bevis",
+      "before": "det som tydligt visar att något är sant, intyg",
+      "after": "något som ger stöd för att ett påstående är sant; styrkan beror på sammanhanget"
+    },
+    {
+      "language": "sv",
+      "word": "president",
+      "before": "(titel för) statschef",
+      "after": "en titel för en statschef eller ledare för en organisation"
+    },
+    {
+      "language": "sv",
+      "word": "sommar",
+      "before": "den varmaste årstiden",
+      "after": "en av årets fyra årstider; i Sverige vanligtvis den varmaste"
+    },
+    {
+      "language": "sv",
+      "word": "viss",
+      "before": "säker, övertygad",
+      "after": "en bestämd: en viss bok; också säker eller övertygad"
+    },
+    {
+      "language": "sv",
+      "word": "ännu",
+      "before": "ytterligare",
+      "after": "fortfarande; också ytterligare"
+    },
+    {
+      "language": "sv",
+      "word": "heller",
+      "before": "också",
+      "after": "också, oftast i nekande uttryck: jag vill inte heller"
+    },
+    {
+      "language": "sv",
+      "word": "må",
+      "before": "känna sig",
+      "after": "känna sig på ett visst sätt: hur mår du?"
+    },
+    {
+      "language": "sv",
+      "word": "jag",
+      "before": "den person som talar om sig själv",
+      "after": "den som talar eller skriver om sig själv"
+    },
+    {
+      "language": "sv",
+      "word": "själva",
+      "before": "utan någon annan eller utan hjälp",
+      "after": "en form av själv för flera: vi gjorde det själva; också som betoning: själva huset"
+    },
+    {
+      "language": "sv",
+      "word": "säkerhet",
+      "before": "att vara skyddad mot fara",
+      "after": "att vara skyddad mot fara; också visshet om något"
+    },
+    {
+      "language": "sv",
+      "word": "program",
+      "before": "enskild sändning i radio och TV",
+      "after": "en följd av datorinstruktioner; också en sändning i radio eller tv eller en plan för ett evenemang"
+    },
+    {
+      "language": "sv",
+      "word": "god",
+      "before": "välsmakande, läcker",
+      "after": "bra eller vänlig; också välsmakande"
+    },
+    {
+      "language": "sv",
+      "word": "spel",
+      "before": "en lek eller tävling med regler",
+      "after": "en aktivitet med regler; också att spela musik eller teater"
+    },
+    {
+      "language": "sv",
+      "word": "lycka",
+      "before": "tur, framgång",
+      "after": "en stark känsla av glädje; också tur eller framgång"
+    }
+  ]
+}

@@ -12,3 +12,7 @@ Urvalet är frekvensbaserat, inte en universell rangordning av språkets exakt 1
 Hämtat 29 oktober 2026. Bearbetning: frekvensurval, urval av betydelser, borttagning av exempel, egna kompletterande översättningar och förenklade svenska förklaringar. Ordmaterialet i `vocabulary.js`, inklusive bearbetningarna, distribueras under **CC BY-SA 4.0**. Källornas ursprungliga licenser och attribution gäller fortsatt. Se även `wordfreq-NOTICE.md`.
 
 Ord kan ha flera betydelser. Korten visar ett urval och är avsedda för ordförrådsträning, inte som en fullständig ordbok eller som skolans officiella ordlista. De vanligaste grammatiska småorden kan behöva förklaras med fler exempel tillsammans med en vuxen.
+
+## Redaktionell faktakontroll 2 november 2026
+
+Alla kort har lästs igenom. 101 betydelser har rättats eller förtydligats; de är egna bearbetningar, inte lexikonförlagens ordagranna artiklar. Se [granskningsrapporten](FACT-CHECK.md) och [ändringslistan](FACT-CHECK-WORDS.json). Det är en ämnesvis källkontroll med riktade uppslag, inte en separat oberoende ordboksverifiering av varje kort. Ordfrågorna repeterar kortens ordpar, inte alla möjliga översättningar.
