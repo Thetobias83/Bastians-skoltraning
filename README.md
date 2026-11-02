@@ -21,3 +21,9 @@ Upptäckarverkstan innehåller tio lektioner om AI, 3D-print och C++, med 20 fr�
 34 lektioner i skrivande, engelska dialoger, matematik, NO och SO med 68 frågor. Skrivande och engelska meddelanden sparas i `drafts` i samma lokala framstegsfil och ingår i export/import. Textstöd räknar ord och visar enkla signaler om stor bokstav och avslutande skiljetecken; det bedömer inte kvalitet eller stavning. Ingen mikrofon spelas in och engelskt uttal bedöms inte automatiskt.
 
 Matten har tio nya områden: positionssystem, bråk, likheter, mönster, geometri, mått, dubbelt och hälften, diagram, slump och rimlighet. De väljs under Matte och finns också bland de blandade uppgifterna. Förklaringar och praktiska uppdrag finns under Skolämnen. Läroplansinventeringen har uppdaterats med kvarvarande behov av praktiskt utförande och återkoppling.
+
+## Äventyrsön
+Fem frivilliga smålekar väver in studieteknik: en liten start, återkallande av tre skatter, textledtrådar, en plan i tre steg och en paus med ett självvalt nästa steg. Inga tidtagningar eller poäng. Ett uppdrag räcker. En vuxen kan visa knepet och koppla det till en riktig skoluppgift. Vuxeninformationen i appen beskriver syftet öppet och länkar till EEF och AERO.
+
+Besökta platser, valda knep och senaste minnesväskans datum sparas lokalt och följer med säkerhetskopian. Inga leksvar eller felräkningar sparas. Äldre säkerhetskopior fungerar också. Minnesväskan kan frivilligt återbesökas en annan dag.
+
