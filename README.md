@@ -27,3 +27,20 @@ Fem frivilliga smålekar väver in studieteknik: en liten start, återkallande a
 
 Besökta platser, valda knep och senaste minnesväskans datum sparas lokalt och följer med säkerhetskopian. Inga leksvar eller felräkningar sparas. Äldre säkerhetskopior fungerar också. Minnesväskan kan frivilligt återbesökas en annan dag.
 
+
+## Officeverkstan
+
+Word, Excel och PowerPoint har fyra fritt valbara nivåer vardera: Kom igång, Bygg vidare, Arbeta smart och Utmaning. Tolv lektioner innehåller förklaringar, tre praktiska steg, en kontrollfråga och en egen checklista. De sista nivåerna är fördjupning att växa in i, inte årskurskrav eller en fullständig Officeutbildning.
+
+Tre lokala övningsmodeller fungerar utan konto eller Office:
+- Word: titel, text, punktlista och källa med förhandsvisning.
+- Excel: tre antal, ett pris, SUMMA, MEDEL, enkel OM och multiplikation med absolut prisreferens. Ett enkelt stapeldiagram ändras med talen. Bara de angivna formlerna stöds; ingen kod exekveras från formelrutan.
+- PowerPoint: tre textbilder, omordning, stödanteckningar och bildvisning som döljer anteckningarna.
+
+Utkast och egna uppdragsmarkeringar sparas lokalt, ingår i JSON-säkerhetskopian och kan nollställas via Översikt. Äldre säkerhetskopior får tomma Office-utkast. Ingen Office-fråga lägger till prestationspoäng. Modellerna skapar inte .docx-, .xlsx- eller .pptx-filer. Varje nivå har också uppgifter för riktiga Office, bland annat rubrikformat, bildtexter, tillgänglighet, innehållsförteckning, tabellsortering, relativa och absoluta referenser samt presentation inför publik.
+
+Innehållet hänvisar till Microsofts svenska hjälpsidor; menyer kan skilja sig mellan versioner:
+- [Word och rubrikformat](https://support.microsoft.com/sv-se/word/add-a-heading-in-a-word-document)
+- [Excel: SUMMA](https://support.microsoft.com/sv-se/excel/functions/sum-function)
+- [Excel: relativa och absoluta referenser](https://support.microsoft.com/sv-se/excel/switch-between-relative-and-absolute-references)
+- [PowerPoint: grunduppgifter och stödanteckningar](https://support.microsoft.com/sv-se/powerpoint/basic-tasks-for-creating-a-powerpoint-presentation)
